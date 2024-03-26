@@ -50,11 +50,14 @@ nav ul{
 
 .hamburger{
     /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
     font-size: 16px;
     font-weight: 500;
 }
 
-.hamburger i{
+.fa-bars{
+    font-size: 20px;
     margin-right: 5px;
 }
 
@@ -116,3 +119,50 @@ nav ul{
     width: 414px;
 }
 
+.sec2_text p{
+    color: #959CA0;
+    font-size: 18px;
+    margin: 50px 0px 10px;
+}
+
+.portfolio{
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.portfolio p{
+    color: #959CA0;
+    font-size: 18px;
+}
+
+.projects, .experts{
+    /* border: 1px solid white; */
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fa-briefcase, .fa-laptop-code{
+    color: #959CA0;
+    font-size: 30px;
+    margin: 0px 0px 20px;
+}
+
+.projects h3, .experts h3{
+    font-size: 44px;
+    font-weight: 400;
+}
+
+.projects p, .experts p{
+    margin: 0px 0px 50px;
+}
+
+.projects button, .experts button{
+    padding: 8px 12px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    border: 1px solid #fff;
+}
