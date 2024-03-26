@@ -166,3 +166,33 @@ nav ul{
     color: #fff;
     border: 1px solid #fff;
 }
+
+.marquee{
+    /* width: 100%; */
+    /* padding: 30px; */
+    /* white-space: nowrap; */
+    /* overflow: hidden; */
+    /* position: relative; */
+    animation: marquee 20s linear infinite;
+    display: flex;
+    /* border: 1px solid white; */
+}
+
+.e_learning, .e_commerce, .cinema, .ui_ux, .chatbot, .ai_platform, .WA_chatbot, .streaming{
+    padding: 30px;
+}
+
+.marquee p{
+    /* border: 1px solid red; */
+    width: 90%;
+    text-wrap:wrap;
+}
+
+@keyframes marquee{
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
