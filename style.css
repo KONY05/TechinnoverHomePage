@@ -178,6 +178,15 @@ nav ul{
     /* border: 1px solid white; */
 }
 
+@keyframes marquee{
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
 .e_learning, .e_commerce, .cinema, .ui_ux, .chatbot, .ai_platform, .WA_chatbot, .streaming{
     padding: 30px;
 }
@@ -186,13 +195,38 @@ nav ul{
     /* border: 1px solid red; */
     width: 90%;
     text-wrap:wrap;
+    text-align: center;
+    font-size: 22px;
 }
 
-@keyframes marquee{
-    0%{
-        transform: translateX(0%);
-    }
-    100%{
-        transform: translateX(-100%);
-    }
+/* Section Three Styling */
+.sec3{
+    margin: 60px 0;
+}
+
+.sec3 img{
+    max-width: 100%;
+    height: auto;
+    /* position: relative; */
+}
+
+.sec3_text{
+    width: 100%;
+    z-index: 2;
+    margin-top: -8px;
+    background-color: #FFF;
+    padding: 60px 30px;
+    color: #000;
+    /* position: absolute; */
+}
+
+.sec3_text h3{
+    font-size: 28px;
+    font-weight:500;
+}
+
+.sec3_text p{
+    margin: 50px 0px 10px 0px;
+    color: #6D7275;
+    font-size: 18px;
 }
