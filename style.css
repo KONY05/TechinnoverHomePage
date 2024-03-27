@@ -163,8 +163,14 @@ nav ul{
 .projects button, .experts button{
     padding: 8px 12px;
     background-color: rgba(0, 0, 0, 0);
-    color: #fff;
-    border: 1px solid #fff;
+    color: #FFF;
+    border: 1px solid #FFF;
+}
+
+.projects button:hover, .experts button:hover{
+    background-color: #FFF;
+    color: #000;
+    font-weight: 600;
 }
 
 .marquee{
@@ -207,7 +213,6 @@ nav ul{
 .sec3 img{
     max-width: 100%;
     height: auto;
-    /* position: relative; */
 }
 
 .sec3_text{
@@ -217,7 +222,6 @@ nav ul{
     background-color: #FFF;
     padding: 60px 30px;
     color: #000;
-    /* position: absolute; */
 }
 
 .sec3_text h3{
@@ -233,7 +237,7 @@ nav ul{
 
 /* Services Section Styling */
 .services{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     margin: 40px 0px;
 }
 
@@ -253,9 +257,8 @@ nav ul{
 }
 
 .info{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     display: grid;
-    /* grid-template-rows: 50px; */
     row-gap: 25px;
 }
 
@@ -282,4 +285,53 @@ nav ul{
 
 .fa-pen-nib{
     padding-right: 15px; 
+}
+
+/* Section Four Styling */
+.sec4{
+    /* border: 1px solid white; */
+    padding: 30px 0px;
+}
+
+.sec4 img{
+    max-width: 100%;
+    height: auto;
+}
+
+.chat{
+    width: 100%;
+    /* z-index: 2; */
+    margin-top: -8px;
+    background-color: #FFF;
+    padding: 60px 30px;
+    color: #000;
+}
+
+.chat h3{
+    font-size: 28px;
+    font-weight:500;
+}
+
+.chat p{
+    margin: 50px 0px 30px 0px;
+    color: #6D7275;
+    font-size: 18px;
+}
+
+.chat button{
+    padding: 10px 18px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #000;
+    border: 1px solid #000;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 60px;
+}
+
+.chat button:hover{
+    background-color: #000;
+    color: #FFF;
+    font-weight: 600;
 }
