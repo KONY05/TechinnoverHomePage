@@ -230,3 +230,56 @@ nav ul{
     color: #6D7275;
     font-size: 18px;
 }
+
+/* Services Section Styling */
+.services{
+    border: 1px solid white;
+    margin: 40px 0px;
+}
+
+.services_txt, .info{
+    padding: 30px;
+}
+
+.services_txt h3{
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.services_txt p{
+    margin: 50px 0px 40px;
+    font-size: 18px;
+    color: #959CA0;
+}
+
+.info{
+    border: 1px solid white;
+    display: grid;
+    /* grid-template-rows: 50px; */
+    row-gap: 25px;
+}
+
+.web, .mobile, .design, .ai, .team{
+    /* border: 1px solid white; */
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.fa-tv, .fa-robot, .fa-user-check, .fa-mobile-screen, .fa-pen-nib{
+    /* border: 1px solid red; */
+    color: #6D7275;
+    font-size: 24px;
+}
+
+.fa-tv, .fa-robot, .fa-user-check{
+    padding-right: 10px;
+}
+
+.fa-mobile-screen{
+    padding-right: 22px;
+}
+
+.fa-pen-nib{
+    padding-right: 15px; 
+}
