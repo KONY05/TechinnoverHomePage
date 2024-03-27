@@ -14,9 +14,6 @@ body{
 }
 
 /* Header Styling */
-/* header{
-} */
-
 .head{
     width: 100%;
     /* border: 1px solid white; */
@@ -88,11 +85,9 @@ nav ul{
 #banner_text{
     /* border: 1px solid red; */
     width: 100%;
-    /* z-index: 2; */
     background-color: #FFF;
     padding: 60px 30px;
     color: #000;
-    /* text-align: center; */
 }
 
 #banner_text h3{
@@ -129,7 +124,6 @@ nav ul{
     /* border: 1px solid white; */
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
 }
 
 .portfolio p{
@@ -174,11 +168,8 @@ nav ul{
 }
 
 .marquee{
-    /* width: 100%; */
-    /* padding: 30px; */
-    /* white-space: nowrap; */
-    /* overflow: hidden; */
-    /* position: relative; */
+    width: 100%;
+    overflow: hidden;
     animation: marquee 20s linear infinite;
     display: flex;
     /* border: 1px solid white; */
@@ -194,7 +185,12 @@ nav ul{
 }
 
 .e_learning, .e_commerce, .cinema, .ui_ux, .chatbot, .ai_platform, .WA_chatbot, .streaming{
-    padding: 30px;
+    padding: 18px;
+}
+
+.e_learning img, .e_commerce img, .cinema img, .ui_ux img, .chatbot img, .ai_platform img, .WA_chatbot img, .streaming img{
+    max-width: 100%;
+    height: auto;
 }
 
 .marquee p{
@@ -300,7 +296,6 @@ nav ul{
 
 .chat{
     width: 100%;
-    /* z-index: 2; */
     margin-top: -8px;
     background-color: #FFF;
     padding: 60px 30px;
@@ -334,4 +329,54 @@ nav ul{
     background-color: #000;
     color: #FFF;
     font-weight: 600;
+}
+
+/* Footer Styling */
+footer{
+    padding: 30px 0;
+}
+
+.footer_marquee{
+    width: 100%;
+    overflow: hidden;
+    animation: marquee 20s linear infinite;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    /* border: 1px solid white; */
+}
+
+.footer_marquee img{
+    max-width: 100%;
+    height: auto;
+}
+
+.exam_padi img{
+    width: 300px;
+}
+
+#copyright{
+    /* border: 1px solid white; */
+    text-align: center;
+    padding: 30px 30px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #FFFFFFA1;
+}
+
+.top{
+    /* border: 1px solid white; */
+    width: fit-content;
+    padding: 10px 15px;
+    position: fixed;
+    top: 95%;
+    left: 99%;
+    transform: translate(-100%, -100%);
+    background-color: rgba(41, 40, 40, 0.137);
+    /* cursor: pointer; */
+}
+
+.top a{
+    text-decoration: none;
+    color: #FFF;
 }
