@@ -417,4 +417,29 @@ footer{
 }
 
 /* Section One Styling */
+.sec1{
+    padding: 0px 30px;
+}
+
+.sec1 h2{
+    width: 65%;
+    font-size: 44px;
+    line-height: 55px;
+}
+
+.banner{
+    padding: 30px;
+    margin: 60px 0px 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+#banner_text{
+    width: 50%;
+    margin-left: -50px;
+    margin-top: 50px;
+    padding: 48.6px;
+}
+
+
 }
