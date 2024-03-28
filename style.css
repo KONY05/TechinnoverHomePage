@@ -489,4 +489,20 @@ footer{
     width: 50%;
 }
 
+/* Services Section Styling */
+.services{
+    padding: 0px 30px;
+}
+
+.services_txt{
+    width: 50%;
+    float: left;
+}
+
+.info{
+    width: 50%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1fr);
+}
+
 }
