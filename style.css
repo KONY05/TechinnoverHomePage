@@ -417,7 +417,7 @@ footer{
 }
 
 /* Section One Styling */
-.sec1{
+.sec1, .services{
     padding: 0px 30px;
 }
 
@@ -490,10 +490,6 @@ footer{
 }
 
 /* Services Section Styling */
-.services{
-    padding: 0px 30px;
-}
-
 .services_txt{
     width: 50%;
     float: left;
@@ -505,4 +501,29 @@ footer{
     grid-template-rows: repeat(1fr);
 }
 
+/* Section Four Styling */
+.sec4{
+    padding: 0px 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sec4 img{
+    width: 60%;
+    height: 550px;
+    float: right;
+}
+
+.chat{
+    width: 50%;
+    padding: 48.6px;
+    margin-left: -50px;
+}
+
+/* Footer Styling */
+#copyright{
+    padding-left: 60px;
+    text-align: left;
+}
 }
