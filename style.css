@@ -472,4 +472,21 @@ footer{
     margin: 10px 0px 30px;
 }
 
+/* Section Three Styling */
+.sec3{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 90px 60px;
+}
+
+.sec3 img{
+    width: 50%;
+    float: right;
+}
+
+.sec3_text{
+    width: 50%;
+}
+
 }
