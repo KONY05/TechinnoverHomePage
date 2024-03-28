@@ -11,6 +11,9 @@
 body{
     color: #fff;
     background-color: #000;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:"header" "body";
 }
 
 /* Header Styling */
@@ -481,12 +484,13 @@ footer{
 }
 
 .sec3 img{
-    width: 50%;
+    width: 60%;
     float: right;
 }
 
 .sec3_text{
     width: 50%;
+    margin-right: -30px;
 }
 
 /* Services Section Styling */
@@ -518,7 +522,7 @@ footer{
 .chat{
     width: 50%;
     padding: 48.6px;
-    margin-left: -50px;
+    margin-left: -70px;
 }
 
 /* Footer Styling */
@@ -526,4 +530,115 @@ footer{
     padding-left: 60px;
     text-align: left;
 }
+}
+
+@media (min-width:1050px){
+/* Header Styling */
+    #techinnover{
+        /* top: 100%;
+        left: 100%; */
+        transform: translate(-90%, -10%);
+    }
+}
+
+@media (min-width: 1095px){
+/* Footer Styling */
+    #copyright{
+        border-top: 1px solid #959CA0;
+    }
+}
+
+@media (min-width: 1140px){
+/* Section Three Styling */
+    .sec3_text{
+        padding: 61px;
+    }
+/* Section Four Styling */
+    .sec4{
+        float: left;
+    }
+/* Footer Styling */
+    .footer_marquee{
+        padding: 60px 0 30px;
+    }
+}
+
+@media (min-width: 1201px){
+/* Body Styling */
+    body{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        "header body";
+        gap: 350px;
+    }
+    .main{
+        grid-area: body;
+        width: 75%;
+    }
+/* Header Styling */
+    .header{
+        grid-area: header;
+        /* border: 1px solid green; */
+        padding: 60px;
+        background-color: #000;
+        z-index: 20;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        position: fixed;
+        height: 113vh;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        justify-content: center;
+    }
+    .head{
+        /* border: 1px solid white; */
+        /* position: relative; */
+        position: sticky;
+        /* height: 100vh; */
+        flex-direction: column;
+        /* align-items: center; */
+        /* justify-content: center; */
+    }
+
+    .hamburger{
+        opacity: 0;
+        position: absolute;
+        top: 0;
+    }
+
+    #techinnover{
+        /* border: 1px solid yellow; */
+        margin-top: 21px;
+        top: 100%;
+        left: 100%;
+        transform: translate(-0%, -500%);
+        width: 180px;
+        height: 75px;
+        /* top: 0; */
+    }
+
+    nav ul{
+        opacity: 1;
+        flex-direction: column;
+        margin-top: -120px;
+        gap: 25px;
+    }
+
+    nav ul li{
+        font-size: 20px;
+    }
+
+    nav ul li:hover{
+        cursor: pointer;
+        color: #959CA0;
+    }
+
+    .icons{
+        margin-top: 200px;
+
+    }
 }
