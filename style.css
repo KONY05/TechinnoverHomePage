@@ -31,6 +31,7 @@ body{
 nav ul{
     list-style: none;
     opacity: 0;
+    left: 0;
     position: absolute;
     display: flex;
 }
@@ -373,10 +374,47 @@ footer{
     left: 99%;
     transform: translate(-100%, -100%);
     background-color: rgba(41, 40, 40, 0.137);
-    /* cursor: pointer; */
 }
 
 .top a{
     text-decoration: none;
     color: #FFF;
+}
+
+/* Media Queries */
+@media (min-width: 901px){
+/* Header Styling */
+.head{
+    justify-content: space-between;
+    padding: 0 25px;
+    height: 53px;
+}
+
+.icons{
+    opacity: 1;
+    position: relative;
+    display: flex;
+    gap: 15px;
+}
+
+.fa-twitter, .fa-instagram, .fa-linkedin, .fa-facebook{
+    color: #959CA0;
+}
+
+.fa-twitter:hover, .fa-instagram:hover, .fa-linkedin:hover, .fa-facebook:hover{
+    cursor: pointer;
+    color: #FFF;
+}
+
+#techinnover{
+    /* border: 1px solid white; */
+    width: 120px;
+    height: 45px;
+    top: 100%;
+    left: 100%;
+    transform: translate(-50%, -10%);
+    margin-bottom: -10px;
+}
+
+/* Section One Styling */
 }
